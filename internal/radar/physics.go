@@ -8,4 +8,7 @@ func ComputeIdealScan(sig domain.Signal) domain.Scan {
 	// 2. Assegna RCS ed SNR nominali
 	// 3. Classifica il Task (TaskEmptySpace o TaskTargetDetected)
 	// 4. Ritorna il RadarScan "perfetto"
+
+	scan := domain.Scan{}
+	return scan
 }
