@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/Syd00/lazy-radar-detector/pkg/zipf"
+	"lazy-radar-detector/pkg/zipf"
 )
 
 // Verify that invalid parameters return expected errors
